@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MediaItem from '../components/MediaItem';
 import workExperience from '../content/workExperience';
 import {Icon} from 'react-fa';
+import '../sass/pdf.scss';
 
 class ResumePage extends Component {
   render() {

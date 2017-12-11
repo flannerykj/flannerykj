@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Icon} from 'react-fa';
 import SocialLinks from '../components/SocialLinks';
-import Skills from '../components/Skills';
+import Skill from '../components/Skill';
 
 
 class IndexPage extends Component {
@@ -9,14 +9,14 @@ class IndexPage extends Component {
 
     return(
       <div className='site-container'>
-      <section className="hero is-primary">
+      <section className="hero">
         <div className="hero-body">
-          <div className="container wrapper">
+          <div className="container has-text-centered wrapper">
             <h1 className="title">
               Flannery Jefferson
             </h1>
             <h2 className="subtitle">
-              Gets along with both humans and computers.
+              I get along with both humans and computers.
             </h2>
             <div className='social-links'>
               <a className="icon is-medium" href='https://github.com/flannerykj' target="_blank">
@@ -30,15 +30,9 @@ class IndexPage extends Component {
               </a>
 
             </div>
-            <a className='button is-primary is-inverted is-outlined' href='/FlanneryJeffersonResume.pdf'>Print Resume</a>
+            <a className='button' href='/FlanneryJeffersonResume.pdf'>Print Resume</a>
           </div>
 
-        </div>
-      </section>
-
-      <section>
-        <div className='wrapper'>
-          <h2 className='title is-3'>What I Do</h2>
         </div>
       </section>
 
