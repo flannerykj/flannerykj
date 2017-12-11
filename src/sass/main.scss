@@ -1,0 +1,117 @@
+
+@import 'bulma/sass/utilities/_all';
+@import 'bulma/sass/elements/button';
+@import 'bulma/sass/elements/icon';
+@import 'bulma/sass/elements/image';
+@import 'bulma/sass/base/generic';
+@import 'bulma/sass/components/card';
+@import 'bulma/sass/elements/form';
+@import 'bulma/sass/elements/title';
+@import 'bulma/sass/grid/columns';
+@import 'bulma/sass/layout/footer';
+@import 'bulma/sass/components/media';
+@import 'bulma/sass/layout/hero';
+@import 'bulma/sass/grid/tiles';
+
+
+html, body{
+  height: 100%;
+  margin: 0;
+}
+
+/*CONTAINER LAYOUT
+ * ===============*/
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+/*SOCIAL LINKS
+===================*/
+.social-links {
+  .icon {
+    padding-right: 20px !important;
+  }
+  padding-bottom: 20px;
+}
+/* PDF STYLES
+=======*/
+@media print {
+    body {
+      .pdf-container {
+        width: 850px;
+        margin: 0 auto;
+        font-size: 16px;
+      }
+      width: 850px;
+      height: 1100px;
+      margin: 0 auto;
+    }
+  }
+  .intro-text {
+    margin-top: 10px;
+    font-style: italic;
+  }
+  figure, .media-content, .content{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+
+  .media-content {
+    margin-bottom: 5px;
+  }
+  .media {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    border: 0px white !important;
+  }
+  .li-item {
+    padding-bottom: 5px !important;
+    display: block;
+  }
+
+  .content p {
+    margin: 0px;
+    margin-top: 5px;
+  }
+  //headings
+
+  h1.title.is-1 {
+    margin-top: -8px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    font-size: 35px;
+  }
+
+  h2 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 24px;
+  }
+  h4 {
+    margin-top: 5px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    margin-bottom: 0px !important;
+  }
+
+  span.subtitle.is-5 {
+    padding-bottom: 5px;
+  }
+
+  .li-title {
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .tile.is-ancestor {
+    margin: 0px !important;
+  }
+  small {
+    font-style: italic;
+  }
+
+
+

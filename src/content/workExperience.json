@@ -1,0 +1,45 @@
+{
+  "items": [
+      {
+      "company":  "Code + Mortar",
+      "position": "Digital Strategist",
+      "time":     "October 2015 - Present",
+      "logo":     "codeandmortar.png",
+      "listItems": [
+        {
+          "title": "Product Management",
+          "details": "Translating the client’s vision to technical requirements. Coordinating between the client and the development team to prioritize scope changes and bug fixes based on business objectives."
+        },
+        {
+          "title": "Account Management",
+          "details": "Nurturing client relationships. Getting sign-off on proposed work and incorporating client feedback throughout production."
+        },
+          {
+          "title": "Business Development",
+          "details": "Acquiring new clients through a detailed understanding of their requirements and industry. Writing proposals / RFP responses with clear product vision."
+        },
+        {
+          "title": "Content Production",
+          "details": "Writing all Code + Mortar marketing content, including copy for the agency’s new website. Copywriting for clients who require new online content."
+        }
+      ]
+    },
+    {
+      "company":  "Degreed",
+      "position": "Product Design & Research",
+      "time":     "June 2014 - February 2015",
+      "logo":     "degreed.jpg",
+      "intro":    "Hired initially as a summer intern and asked to stay on as a part-time employee while in school. User and product research, data analysis and wireframing, UX design and analysis.",
+      "listItems": []
+    },
+    {
+      "company":  "BiblioCommons",
+      "position": "UX Analyst",
+      "time":     "April 2013 - September 2013",
+      "logo":     "biblio.jpg",
+      "intro":    "Assistance with user and product research, wireframing and information architecture.",
+      "listItems": []
+    }
+
+  ]
+}

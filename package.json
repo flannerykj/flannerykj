@@ -1,0 +1,47 @@
+{
+  "name": "flannerykj",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline --port 8000",
+    "deploy" : "npm run build&&gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flannerykj/flannerykj.github.io.git"
+  },
+  "author": "flannery jefferson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flannerykj/flannerykj.github.io/issues"
+  },
+  "homepage": "https://github.com/flannerykj/flannerykj.github.io#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "img-loader": "^2.0.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-fa": "^5.0.0",
+    "react-router-dom": "^4.2.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "react-semantic-ui": "^0.2.0",
+    "semantic-ui-css": "^2.2.12",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1"
+  }
+}
