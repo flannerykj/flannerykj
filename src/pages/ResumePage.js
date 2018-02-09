@@ -3,6 +3,7 @@ import MediaItem from '../components/MediaItem';
 import workExperience from '../content/workExperience';
 import {Icon} from 'react-fa';
 import '../sass/pdf.scss';
+var profilePic = require(`../images/profile-pic.jpg`);
 
 class ResumePage extends Component {
   render() {
@@ -13,8 +14,9 @@ class ResumePage extends Component {
               <Icon name='envelope'/> flannj@gmail.com  &nbsp;
               <Icon name='phone'/> 902 488 4969  &nbsp;
               <Icon name='github'/> <a href="https://github.com/flannerykj">github.com/flannerykj</a>
-          </span></strong>
-          <p className='intro-text'>With a major in English and a minor in Computer Science, I get along with both humans and computers. I am <br/>able to build what I talk about and clearly explain how things are built to others.</p>
+            </span></strong>
+            <p className='intro-text'>With a major in English and a minor in Computer Science, I get along with both <br/>humans and computers.</p>
+            <img src={profilePic} style={{position: 'absolute', top: '0', right: '0', width: '190px'}} />
             <h2>Work Experience</h2>
               {workExperience.items.map((item, i) => (
                 <MediaItem
@@ -32,18 +34,19 @@ class ResumePage extends Component {
                       style={{marginBottom: '-10px'}}
                       titleA="B.A. (Major in English, Minor in Computer Science)"
                       intro="2011-2015, University of King's College, Dalhousie University"
-                    logo="dal.png"/>
+                      logo="dal.png"/><div style={{height: '10px', width: '100%'}}></div>
                 <h2 style={{marginTop: '0px'}}>Personal Projects</h2>
                         <MediaItem
                           titleA="Urban Applause"
-                          subtitle="http://urbanapplause.com"
-                          intro="CRUD web app for tracking street artists. Initially built with React, using Firebase database, authentication and hosting services. The second iteration uses Redux, an Express server, JSON web tokens and a Postgres database hosted on Heroku in place of Firebase's services."                        />
+                          subtitle="https://urbanapplause.com"
+                          linkedSubtitle={true}
+                          intro="Web app for tracking street artists. Initially built with React, using Firebase database, authentication and hosting services. The second iteration uses Redux, an Express server, JSON web tokens, a Postgres database and NGINX backend server in place of Firebase's API."                        />
               <h2 >Related Skills</h2>
                     <MediaItem
                       listItems={[
                       {
-                        title:"Technical",
-                        details: "React/JSX, ES6, Redux, JavaScript, Node.js & Express, AJAX, HTML, CSS/Sass, JSON, Webpack, NPM, Babel, API Integrations, PostgreSQL, Firebase, Contentful API, Python (Django)."
+                        title:"Development",
+                        details: "React/JSX, ES6, Redux, JavaScript, JQuery, JSON, Webpack, Node.js & Express, NGINX, PostgreSQL, AJAX, CSS/SCSS, Unit Testing (Mocha & Chai), PostgreSQL, Firebase, Python (Django)."
                         },
                         {
                         title: "Business & Product",
